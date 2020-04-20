@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A site to help you with notes.</title>
+    <link rel="stylesheet" href="styles.css">   
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Interval Finder</h2>
+        <h4>Made by Danny Little</h4>
+    </header>
+    <main>
+        <p>
+            Write a musical note here: 
+        </p>
+        <p class="textBox">
+            <input id="userNote" placeholder="E.g. D, Ab, C#">
+        </p>
+        <p id="helpText"><br></p>
+        Select an interval from the menu. 
+        <p>
+            <select id="interval">
+                <option value="0">Perfect unison</option>
+                <option value="1">Minor 2nd / b9</option>
+                <option value="2">Major 2nd / 9</option>
+                <option value="3">Minor 3rd / #9</option>
+                <option value="4">Major 3rd</option>
+                <option value="5">Perfect fourth</option>
+                <option value="6">Tritone / b5 / #11</option>
+                <option value="7">Perfect 5th</option>
+                <option value="8">Minor 6th / #5</option>
+                <option value="9">Major 6 / 13</option>
+                <option value="10">Minor 7</option>
+                <option value="11">Major 7</option>
+            </select>
+        </p>
+        <p id="answer">
+        </p>
+    </main>
+    <div class="blurb">
+            "What the heck is this?" you might ask. This is a simple tool designed to help you identify a musical interval. 
+            Type a note into the box, and then select an interval from the dropdown menu.
+             If you have typed a valid musical note, then whichever note is the distance away selected in the menu will appear.
+    </div>
+</body>
+</html>

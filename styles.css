@@ -1,0 +1,34 @@
+body {
+    background-color: powderblue;
+    font-family: Helvetica;
+    font-size: 120%;
+    min-height: 98vh;
+    position: relative;
+  }
+  
+  header {
+    text-align: center;
+    background-color:skyblue;
+    font-family:Helvetica, sans-serif;
+    color:rgb(90, 40, 40);
+    font-size: 110%;
+    padding: 1%;
+  }
+
+  #helpText {
+    color:green;
+    font-size: 70%;
+  }
+
+  main{
+    padding-left: 2%;
+  }
+
+  .blurb{
+    background-color:skyblue;
+    position: absolute;
+    padding: 3%;
+    width: 100;
+    bottom: 0;
+    font-size: 80%;
+  }
